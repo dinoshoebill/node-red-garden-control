@@ -1,0 +1,4064 @@
+[
+    {
+        "id": "8fd7c1fc01acbfdb",
+        "type": "tab",
+        "label": "Treshold",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eadc909ede9189dc",
+        "type": "tab",
+        "label": "Data Readings",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b32d48a959cccd59",
+        "type": "tab",
+        "label": "Read/Recieve",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bb806ea69cb970b6",
+        "type": "tab",
+        "label": "MQTT Input",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ea5d01686805a4c0",
+        "type": "tab",
+        "label": "Ping Device",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "faf343472f718423",
+        "type": "tab",
+        "label": "CSS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8905c6becc0bc4e1",
+        "type": "tab",
+        "label": "Sync",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "255d1b61ab46802c",
+        "type": "group",
+        "z": "8fd7c1fc01acbfdb",
+        "name": "Humidity Slider",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5dbbc2256d195b6f",
+            "6388649ffa6447a6",
+            "f66763a4655a8028",
+            "42d56948ab4e2704",
+            "7a832bf477ec51e1",
+            "c581a7010018b144",
+            "784b64b430892fcb",
+            "4f8941114f278cd4",
+            "76aab185215b7d0a",
+            "d29688dec68e8cf0",
+            "50e107c9159e3775",
+            "94402c98ea2f6c4e",
+            "417e8e01c6b22da4",
+            "741e081c493dabcb",
+            "2da44de6417f189a",
+            "b87af3a65622b1d2"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 592,
+        "h": 502
+    },
+    {
+        "id": "ac7c595f2a7cf9e5",
+        "type": "group",
+        "z": "bb806ea69cb970b6",
+        "name": "Humidity",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4e78056c76bbffe0",
+            "4ca8d4d8765e5ea2",
+            "6894fc91e23d7c64",
+            "81b2cb3a21cbb584",
+            "1e86ed3136da3da7",
+            "8bb6c133f444020c",
+            "b553bd68a8c885ef",
+            "2466e043115c685e",
+            "725cc9d5937c86f9",
+            "9db6d474b285e6cb"
+        ],
+        "x": 534,
+        "y": 19,
+        "w": 492,
+        "h": 382
+    },
+    {
+        "id": "9b5cdb680a06e70c",
+        "type": "group",
+        "z": "bb806ea69cb970b6",
+        "name": "Light",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6c99809bfd6568ac",
+            "ae3b0b5a7b82ee34",
+            "8a1ba4f4ec37a9c9",
+            "0c3b34231b70d775",
+            "cea73a7c5b09f4cc"
+        ],
+        "x": 1054,
+        "y": 19,
+        "w": 412,
+        "h": 202
+    },
+    {
+        "id": "b8e0ddd6a610a57e",
+        "type": "group",
+        "z": "faf343472f718423",
+        "name": "CSS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e27029352354fba6"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 272,
+        "h": 82
+    },
+    {
+        "id": "226991cd6a8a44d8",
+        "type": "group",
+        "z": "bb806ea69cb970b6",
+        "name": "Temperature",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "54a419024fcc8eae",
+            "4757ef60c9af7188",
+            "920962cd57769e78",
+            "5357e3a7d59d2640",
+            "ff706318bf55758a"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 492,
+        "h": 202
+    },
+    {
+        "id": "8833773589050556",
+        "type": "group",
+        "z": "b32d48a959cccd59",
+        "name": "Recieve Variables",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b5113aff940f9677",
+            "2dec61b933607cda",
+            "baa1184e996bac39",
+            "67efa018d60e49d5",
+            "e2abefcda49db8ed",
+            "bfd75aa87177317b"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 672,
+        "h": 162
+    },
+    {
+        "id": "5cab40e3b674511a",
+        "type": "group",
+        "z": "ea5d01686805a4c0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f58b9452594c96db",
+            "f3d30a8fbd3b1f1e",
+            "8fe644abd56d07ce",
+            "8f4547ffc1309a63",
+            "aefa250b83ba4349",
+            "4453efd3c32bd947",
+            "0cc7b76c97a318f5",
+            "b072b6c1c4f05c56",
+            "1a8b2fe0712a51ab",
+            "26959879e530f1f6",
+            "66cc64787ac87cbb"
+        ],
+        "x": 14,
+        "y": 299,
+        "w": 692,
+        "h": 222
+    },
+    {
+        "id": "d0c7a044839799f5",
+        "type": "group",
+        "z": "8fd7c1fc01acbfdb",
+        "name": "Temperature Slider",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1c1a47e8cd56c3f0",
+            "510bdb2708b99d17",
+            "9e3fcbe51b1a6945",
+            "02aea8b745c123bd",
+            "42a59ccea1fe84c2",
+            "c897710e59411440",
+            "d904497f18aa2448",
+            "a29ece5e4981aad0"
+        ],
+        "x": 634,
+        "y": 319,
+        "w": 572,
+        "h": 262
+    },
+    {
+        "id": "2d4e1bac8ffe696a",
+        "type": "group",
+        "z": "8fd7c1fc01acbfdb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a5d4e34283f84d55",
+            "1a79df8efcfe24a1",
+            "0d3ab068e0c60b29",
+            "69225ce809b0df57",
+            "76ab7b07d5d74752",
+            "640919400b4a9fee",
+            "5861bfc3ae93fceb",
+            "cb14919d756504fc",
+            "9ef96234306e8fee",
+            "7e93a8fcbade8dc3",
+            "c3cd04215a890395",
+            "b00bf204ccb9bb39",
+            "b0821c691147f89f",
+            "d9fdc0cda48f1d3e",
+            "23f3ae8373c5d766",
+            "7b00e98ed027ae1c",
+            "f371d9ca1bae0a65",
+            "483fb4edad902038"
+        ],
+        "x": 14,
+        "y": 539,
+        "w": 492,
+        "h": 322
+    },
+    {
+        "id": "da966f598e9a8a77",
+        "type": "group",
+        "z": "ea5d01686805a4c0",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4b5d5dcb49d60ca8",
+            "79d59ac095702deb",
+            "ef823c317275d227",
+            "4734ba2c8413219c",
+            "1d637c3a4359c8bf",
+            "d4db1b38eca21c82",
+            "597a311c871491d9",
+            "a5215ec990b65882",
+            "dd654227ce9d9426",
+            "bc93d9bbe972ea29",
+            "c0bced23067386fd",
+            "dfd1ac76a10305e1",
+            "69b98104ac95376d"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 1032,
+        "h": 262
+    },
+    {
+        "id": "50503fc0fe71488a",
+        "type": "group",
+        "z": "8fd7c1fc01acbfdb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c59f41c8d4b804c1",
+            "9352679fce4c5f8d",
+            "779199b6ff262fdd",
+            "5202e38fd500f0e1",
+            "b1eeb71cf20d5c2e",
+            "638bcb6a18ac89ac",
+            "7c714e2fe7984ed1",
+            "da7a0ba5c84761c2",
+            "d3bce971e6a7645f",
+            "4555ba1b5edd2dda",
+            "44f9f86485f1d7de",
+            "f93f242c294a1cf8",
+            "4995836c2a641456"
+        ],
+        "x": 634,
+        "y": 19,
+        "w": 542,
+        "h": 282
+    },
+    {
+        "id": "c1c699c80b181abd",
+        "type": "group",
+        "z": "8905c6becc0bc4e1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "90c1691952e969d2",
+            "b0710bdda8a33435",
+            "38ac8359cb48143e",
+            "12acea576ac0e686",
+            "82f18506805f4464",
+            "1e0115a2d4a49e49",
+            "b5a8f8cf6d792d1c",
+            "67d065b4292674d4",
+            "06522c627445bae2",
+            "8529d6a4e9397820",
+            "dec03da5c1979f0f",
+            "b824088a8a4745b3",
+            "e78654fa32ddf00d",
+            "05869f5c649d5483",
+            "90618bed72348307",
+            "9677d0c4146d6f3b",
+            "29f4dd011185a6c5"
+        ],
+        "x": 24,
+        "y": 19,
+        "w": 1232,
+        "h": 242
+    },
+    {
+        "id": "aed51b703ec02289",
+        "type": "group",
+        "z": "8905c6becc0bc4e1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e0c544c189527c17",
+            "175f5ce5045855dd"
+        ],
+        "x": 34,
+        "y": 299,
+        "w": 412,
+        "h": 82
+    },
+    {
+        "id": "2ed993e5f4c24c73",
+        "type": "group",
+        "z": "eadc909ede9189dc",
+        "name": "Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "24acbcbdd2470709",
+            "c55fe7fc33cb8087",
+            "b16f05305effe942",
+            "ebbd7f8ea2776f8d",
+            "cefe570c2001f888",
+            "33506e0014affb61",
+            "9a529fe787d3d029",
+            "4c2c49496e3da4a1",
+            "0287f1e8fe734047",
+            "1704f2f07561832c",
+            "d89a1958867afef1",
+            "43e19575929c3ed0",
+            "c0e191c4d759e72b",
+            "161fd875d9e67273",
+            "f3d227a98962a32f",
+            "f1dce3c9a55faa9d",
+            "6bf31598fea10731",
+            "72416cdb329ecc83",
+            "fcb675a7dc064339",
+            "7441a65d149f8fd9",
+            "dbb79b41fc7efff2",
+            "95b01dbf532486a1",
+            "d54744d1909d1079",
+            "df158fc2d8b7300e",
+            "6e53dc1dce2f7c4f"
+        ],
+        "x": 24,
+        "y": 19,
+        "w": 1702,
+        "h": 402
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5d6950b080e9ba01",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#ff9632",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Main Theme",
+                "default": "#4B7930",
+                "baseColor": "#e6821e",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#e6821e",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#e6821e",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#e6e6e6",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#eea863",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#e6821e",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Smart Garden",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 24,
+                "gy": 24,
+                "cx": 12,
+                "cy": 12,
+                "px": 12,
+                "py": 12
+            }
+        }
+    },
+    {
+        "id": "be0fcee824f33256",
+        "type": "ui_tab",
+        "name": "Charts",
+        "icon": "fa-bar-chart",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "291353e37a04be5a",
+        "type": "ui_group",
+        "name": "Soil Humidity",
+        "tab": "be0fcee824f33256",
+        "order": 2,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ec659e1cdb9e148b",
+        "type": "ui_tab",
+        "name": "Tresholds",
+        "icon": "fa-sliders",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "07902e15e566b084",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "ec659e1cdb9e148b",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a64dc3fd3bdbd257",
+        "type": "ui_group",
+        "name": "Air Humidity",
+        "tab": "ec659e1cdb9e148b",
+        "order": 4,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b5ce803829b59acf",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "be0fcee824f33256",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b34d9eb3a2225d2f",
+        "type": "ui_group",
+        "name": "Light",
+        "tab": "be0fcee824f33256",
+        "order": 4,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dfed09789643299c",
+        "type": "ui_tab",
+        "name": "Gauges",
+        "icon": "mi-av_timer",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7de524731890078c",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "dfed09789643299c",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab93b90be0474b57",
+        "type": "ui_group",
+        "name": "Air Humidity",
+        "tab": "dfed09789643299c",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "81f22fb07c11e017",
+        "type": "ui_group",
+        "name": "Light",
+        "tab": "dfed09789643299c",
+        "order": 4,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3b9744d8a4452d07",
+        "type": "ui_group",
+        "name": "Air Humidity",
+        "tab": "be0fcee824f33256",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee3e1fcf220a561c",
+        "type": "ui_tab",
+        "name": "Readings",
+        "icon": "fa-table",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f02e06bd562fac49",
+        "type": "ui_group",
+        "name": "Readings Table",
+        "tab": "ee3e1fcf220a561c",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0de2f39d9eb81e7b",
+        "type": "ui_group",
+        "name": "Soil Humidity",
+        "tab": "dfed09789643299c",
+        "order": 2,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5c9114301635419d",
+        "type": "ui_group",
+        "name": "Soil Humidity",
+        "tab": "ec659e1cdb9e148b",
+        "order": 5,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "063432e3e57b4ec4",
+        "type": "ui_group",
+        "name": "Device Current Values",
+        "tab": "ec659e1cdb9e148b",
+        "order": 1,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "452f5fd2ec2ec35e",
+        "type": "ui_group",
+        "name": "Table Data Cycle",
+        "tab": "ee3e1fcf220a561c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5dbbc2256d195b6f",
+        "type": "ui_slider",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Air Humidity Optimal",
+        "label": "Air Humidity (optimal)",
+        "tooltip": "Optimal humidity level plant tolerates. ",
+        "group": "a64dc3fd3bdbd257",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "esp32/humOptimal",
+        "topicType": "msg",
+        "min": "30",
+        "max": "80",
+        "step": 1,
+        "className": "",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "6388649ffa6447a6",
+                "76aab185215b7d0a"
+            ]
+        ]
+    },
+    {
+        "id": "6388649ffa6447a6",
+        "type": "debug",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "esp32/humOptimal",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f66763a4655a8028",
+        "type": "ui_slider",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Air Humidity Radius",
+        "label": "Humidity (radius)",
+        "tooltip": " Humidity radius plant tolerates.",
+        "group": "a64dc3fd3bdbd257",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "esp32/humRadius",
+        "topicType": "msg",
+        "min": "1",
+        "max": "20",
+        "step": 1,
+        "className": "",
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "42d56948ab4e2704",
+                "d29688dec68e8cf0"
+            ]
+        ]
+    },
+    {
+        "id": "42d56948ab4e2704",
+        "type": "debug",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "esp32/humRadius",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7a832bf477ec51e1",
+        "type": "ui_slider",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Soil Humidity Optimal",
+        "label": "Soil Humidity (optimal)",
+        "tooltip": "Optimal soil humidity level plant tolerates. ",
+        "group": "5c9114301635419d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "esp32/soilHumOptimal",
+        "topicType": "msg",
+        "min": "30",
+        "max": "80",
+        "step": 1,
+        "className": "",
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "c581a7010018b144",
+                "50e107c9159e3775"
+            ]
+        ]
+    },
+    {
+        "id": "c581a7010018b144",
+        "type": "debug",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "esp32/soilHumOptimal",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "784b64b430892fcb",
+        "type": "ui_slider",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Soil Humidity Radius",
+        "label": "Soil Humidity (radius)",
+        "tooltip": "Soil humidity radius plant tolerates.",
+        "group": "5c9114301635419d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "esp32/soilHumRadius",
+        "topicType": "msg",
+        "min": "1",
+        "max": "20",
+        "step": 1,
+        "className": "",
+        "x": 200,
+        "y": 480,
+        "wires": [
+            [
+                "4f8941114f278cd4",
+                "94402c98ea2f6c4e"
+            ]
+        ]
+    },
+    {
+        "id": "4f8941114f278cd4",
+        "type": "debug",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "esp32/soilHumRadius",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "76aab185215b7d0a",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Air Humidity Optimal Out",
+        "mode": "link",
+        "links": [
+            "84c93bb64cc3e15a",
+            "9ef96234306e8fee"
+        ],
+        "x": 375,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d29688dec68e8cf0",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Air Humidity Radius Out",
+        "mode": "link",
+        "links": [
+            "7e93a8fcbade8dc3"
+        ],
+        "x": 375,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "50e107c9159e3775",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Soil Humidity Optimal Out",
+        "mode": "link",
+        "links": [
+            "84c93bb64cc3e15a",
+            "c3cd04215a890395"
+        ],
+        "x": 375,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "94402c98ea2f6c4e",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Soil Humidity Optimal Out",
+        "mode": "link",
+        "links": [
+            "84c93bb64cc3e15a",
+            "b00bf204ccb9bb39"
+        ],
+        "x": 375,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "417e8e01c6b22da4",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Air Humidity Optimal Value In",
+        "links": [
+            "5202e38fd500f0e1",
+            "b2d66c23f6c2dc3d"
+        ],
+        "x": 55,
+        "y": 120,
+        "wires": [
+            [
+                "5dbbc2256d195b6f"
+            ]
+        ]
+    },
+    {
+        "id": "741e081c493dabcb",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Air Humidity Radius Value In",
+        "links": [
+            "9fdef778c297ae5f",
+            "b1eeb71cf20d5c2e"
+        ],
+        "x": 55,
+        "y": 240,
+        "wires": [
+            [
+                "f66763a4655a8028"
+            ]
+        ]
+    },
+    {
+        "id": "2da44de6417f189a",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Soil Humidity Optimal Value In",
+        "links": [
+            "638bcb6a18ac89ac",
+            "cd372319f8899c08"
+        ],
+        "x": 55,
+        "y": 360,
+        "wires": [
+            [
+                "7a832bf477ec51e1"
+            ]
+        ]
+    },
+    {
+        "id": "b87af3a65622b1d2",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "255d1b61ab46802c",
+        "name": "Soil Humidity Radius Value In",
+        "links": [
+            "28cff36edcd943a2",
+            "69de5c699e76fe84",
+            "f93f242c294a1cf8"
+        ],
+        "x": 55,
+        "y": 480,
+        "wires": [
+            [
+                "784b64b430892fcb"
+            ]
+        ]
+    },
+    {
+        "id": "a5d4e34283f84d55",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Set Value",
+        "func": "global.set(\"tempOptimal\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 580,
+        "wires": [
+            [
+                "23f3ae8373c5d766"
+            ]
+        ]
+    },
+    {
+        "id": "1a79df8efcfe24a1",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Set Value",
+        "func": "global.set(\"airHumOptimal\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 680,
+        "wires": [
+            [
+                "b0821c691147f89f"
+            ]
+        ]
+    },
+    {
+        "id": "0d3ab068e0c60b29",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Set Value",
+        "func": "global.set(\"tempRadius\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 620,
+        "wires": [
+            [
+                "7b00e98ed027ae1c"
+            ]
+        ]
+    },
+    {
+        "id": "69225ce809b0df57",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Set Value",
+        "func": "global.set(\"airHumRadius\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 720,
+        "wires": [
+            [
+                "d9fdc0cda48f1d3e"
+            ]
+        ]
+    },
+    {
+        "id": "76ab7b07d5d74752",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Set Value",
+        "func": "global.set(\"soilHumOptimal\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 780,
+        "wires": [
+            [
+                "483fb4edad902038"
+            ]
+        ]
+    },
+    {
+        "id": "640919400b4a9fee",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Set Value",
+        "func": "global.set(\"soilHumRadius\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 820,
+        "wires": [
+            [
+                "f371d9ca1bae0a65"
+            ]
+        ]
+    },
+    {
+        "id": "5861bfc3ae93fceb",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Slider Value Temp Optimal",
+        "links": [
+            "42a59ccea1fe84c2"
+        ],
+        "x": 55,
+        "y": 580,
+        "wires": [
+            [
+                "a5d4e34283f84d55"
+            ]
+        ]
+    },
+    {
+        "id": "cb14919d756504fc",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Slider Value Temp Radius",
+        "links": [
+            "c897710e59411440"
+        ],
+        "x": 55,
+        "y": 620,
+        "wires": [
+            [
+                "0d3ab068e0c60b29"
+            ]
+        ]
+    },
+    {
+        "id": "9ef96234306e8fee",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Slider Value Air Hum Optimal",
+        "links": [
+            "76aab185215b7d0a"
+        ],
+        "x": 55,
+        "y": 680,
+        "wires": [
+            [
+                "1a79df8efcfe24a1"
+            ]
+        ]
+    },
+    {
+        "id": "7e93a8fcbade8dc3",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Slider Value Air Hum Radius",
+        "links": [
+            "d29688dec68e8cf0"
+        ],
+        "x": 55,
+        "y": 720,
+        "wires": [
+            [
+                "69225ce809b0df57"
+            ]
+        ]
+    },
+    {
+        "id": "c3cd04215a890395",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Slider Value Soil Hum Optimal",
+        "links": [
+            "50e107c9159e3775"
+        ],
+        "x": 55,
+        "y": 780,
+        "wires": [
+            [
+                "76ab7b07d5d74752"
+            ]
+        ]
+    },
+    {
+        "id": "b00bf204ccb9bb39",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Slider Value Soil Hum Radius",
+        "links": [
+            "94402c98ea2f6c4e"
+        ],
+        "x": 55,
+        "y": 820,
+        "wires": [
+            [
+                "640919400b4a9fee"
+            ]
+        ]
+    },
+    {
+        "id": "b0821c691147f89f",
+        "type": "mqtt out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Air Humidity Optimal",
+        "topic": "esp32/airHumOptimal",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d9fdc0cda48f1d3e",
+        "type": "mqtt out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Air Humidity Radius",
+        "topic": "esp32/airHumRadius",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 370,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "23f3ae8373c5d766",
+        "type": "mqtt out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Temperature Optimal",
+        "topic": "esp32/tempOptimal",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "7b00e98ed027ae1c",
+        "type": "mqtt out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Temperature Radius",
+        "topic": "esp32/tempRadius",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f371d9ca1bae0a65",
+        "type": "mqtt out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Soil Humidity Radius",
+        "topic": "esp32/soilHumRadius",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "483fb4edad902038",
+        "type": "mqtt out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "2d4e1bac8ffe696a",
+        "name": "Soil Humidity Optimal",
+        "topic": "esp32/soilHumOptimal",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "1c1a47e8cd56c3f0",
+        "type": "ui_slider",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "Temperature Optimal",
+        "label": "Temperature (optimal)",
+        "tooltip": "Optimal temperature plant requires.",
+        "group": "07902e15e566b084",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "esp32/tempOptimal",
+        "topicType": "msg",
+        "min": "15",
+        "max": "30",
+        "step": 1,
+        "className": "",
+        "x": 820,
+        "y": 420,
+        "wires": [
+            [
+                "510bdb2708b99d17",
+                "42a59ccea1fe84c2"
+            ]
+        ]
+    },
+    {
+        "id": "510bdb2708b99d17",
+        "type": "debug",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "esp32/tempOptimal",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9e3fcbe51b1a6945",
+        "type": "ui_slider",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "Temperature Radius",
+        "label": "Temperature (radius)",
+        "tooltip": "Temperature radius plant will tolerate.",
+        "group": "07902e15e566b084",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "esp32/tempRadius",
+        "topicType": "msg",
+        "min": "1",
+        "max": "10",
+        "step": 1,
+        "className": "",
+        "x": 820,
+        "y": 540,
+        "wires": [
+            [
+                "02aea8b745c123bd",
+                "c897710e59411440"
+            ]
+        ]
+    },
+    {
+        "id": "02aea8b745c123bd",
+        "type": "debug",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "esp32/tempRadius",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "42a59ccea1fe84c2",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "Temperature Optimal Out",
+        "mode": "link",
+        "links": [
+            "84c93bb64cc3e15a",
+            "5861bfc3ae93fceb"
+        ],
+        "x": 995,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c897710e59411440",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "Temperature Radius Out",
+        "mode": "link",
+        "links": [
+            "84c93bb64cc3e15a",
+            "cb14919d756504fc"
+        ],
+        "x": 995,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d904497f18aa2448",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "Temperature Optimal Value In",
+        "links": [
+            "6751308d729704c5",
+            "9352679fce4c5f8d"
+        ],
+        "x": 675,
+        "y": 420,
+        "wires": [
+            [
+                "1c1a47e8cd56c3f0"
+            ]
+        ]
+    },
+    {
+        "id": "a29ece5e4981aad0",
+        "type": "link in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "d0c7a044839799f5",
+        "name": "Temperature Radius Value In",
+        "links": [
+            "779199b6ff262fdd",
+            "77c85ad16a6a180e"
+        ],
+        "x": 675,
+        "y": 540,
+        "wires": [
+            [
+                "9e3fcbe51b1a6945"
+            ]
+        ]
+    },
+    {
+        "id": "c59f41c8d4b804c1",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Set Sliders",
+        "func": "var split = msg.payload.split(\" \");\n\nvar tempOptimal = split[0];\n\nglobal.set(\"tempOptimal\", parseInt(tempOptimal));\n\nmsg.payload = tempOptimal;\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 60,
+        "wires": [
+            [
+                "9352679fce4c5f8d"
+            ]
+        ]
+    },
+    {
+        "id": "9352679fce4c5f8d",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Temperature Optimal Value Out",
+        "mode": "link",
+        "links": [
+            "d904497f18aa2448"
+        ],
+        "x": 1135,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "779199b6ff262fdd",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Temperature Radius Value Out",
+        "mode": "link",
+        "links": [
+            "a29ece5e4981aad0"
+        ],
+        "x": 1135,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "5202e38fd500f0e1",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Air Humidity Optimal Value Out",
+        "mode": "link",
+        "links": [
+            "417e8e01c6b22da4"
+        ],
+        "x": 1135,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b1eeb71cf20d5c2e",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Air Humidity Radius Value Out",
+        "mode": "link",
+        "links": [
+            "741e081c493dabcb"
+        ],
+        "x": 1135,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "638bcb6a18ac89ac",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Soil Humidity Optimal Value Out",
+        "mode": "link",
+        "links": [
+            "2da44de6417f189a"
+        ],
+        "x": 1135,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7c714e2fe7984ed1",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Set Sliders",
+        "func": "var split = msg.payload.split(\" \");\n\nvar tempRadius = split[1];\n\nglobal.set(\"tempRadius\", parseInt(tempRadius));\n\nmsg.payload = tempRadius;\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 100,
+        "wires": [
+            [
+                "779199b6ff262fdd"
+            ]
+        ]
+    },
+    {
+        "id": "da7a0ba5c84761c2",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Set Sliders",
+        "func": "var split = msg.payload.split(\" \");\n\nvar airHumOptimal = split[2];\n\nglobal.set(\"airHumOptimal\", parseInt(airHumOptimal));\n\nmsg.payload = airHumOptimal;\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 140,
+        "wires": [
+            [
+                "5202e38fd500f0e1"
+            ]
+        ]
+    },
+    {
+        "id": "d3bce971e6a7645f",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Set Sliders",
+        "func": "var split = msg.payload.split(\" \");\n\nvar airHumRadius = split[3];\n\nglobal.set(\"airHumRadius\", parseInt(airHumRadius));\n\nmsg.payload = airHumRadius;\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 180,
+        "wires": [
+            [
+                "b1eeb71cf20d5c2e"
+            ]
+        ]
+    },
+    {
+        "id": "4555ba1b5edd2dda",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Set Sliders",
+        "func": "var split = msg.payload.split(\" \");\n\nvar soilHumOptimal = split[4];\n\nglobal.set(\"soilHumOptimal\", parseInt(soilHumOptimal));\n\nmsg.payload = soilHumOptimal;\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 220,
+        "wires": [
+            [
+                "638bcb6a18ac89ac"
+            ]
+        ]
+    },
+    {
+        "id": "44f9f86485f1d7de",
+        "type": "mqtt in",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Sync To Device",
+        "topic": "esp32/syncDevice",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 740,
+        "y": 160,
+        "wires": [
+            [
+                "c59f41c8d4b804c1",
+                "7c714e2fe7984ed1",
+                "da7a0ba5c84761c2",
+                "d3bce971e6a7645f",
+                "4555ba1b5edd2dda",
+                "4995836c2a641456"
+            ]
+        ]
+    },
+    {
+        "id": "f93f242c294a1cf8",
+        "type": "link out",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Soil Humidity Radius Value Out",
+        "mode": "link",
+        "links": [
+            "b87af3a65622b1d2"
+        ],
+        "x": 1135,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4995836c2a641456",
+        "type": "function",
+        "z": "8fd7c1fc01acbfdb",
+        "g": "50503fc0fe71488a",
+        "name": "Set Sliders",
+        "func": "var split = msg.payload.split(\" \");\n\nvar soilHumRadius = split[5];\n\nglobal.set(\"soilHumRadius\", parseInt(soilHumRadius));\n\nmsg.payload = soilHumRadius;\n\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 260,
+        "wires": [
+            [
+                "f93f242c294a1cf8"
+            ]
+        ]
+    },
+    {
+        "id": "24acbcbdd2470709",
+        "type": "function",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Add Data",
+        "func": "var table = global.get(\"savedData\") || [];\nvar seconds = (global.get(\"cycleSeconds\") || 0) * 1000;\nvar minutes = (global.get(\"cycleMinutes\") || 0) * 60000;\nvar hours = (global.get(\"cycleHours\") || 0) * 86400000;\n\nvar tableTreshold = seconds + minutes + hours;\n\nif(tableTreshold < 5000) {\n    tableTreshold = 5000;\n}\n\nconst now = new Date();\n\nif(table.length > 0) {\n    const dateLastSplit = table[0][\"date\"].split(\" \");\n\n    const dateLast = Date.parse(\n        dateLastSplit[0] \n        + \"T\" + \n        dateLastSplit[1]\n    );\n\n    if(Math.abs(Date.parse(now) - dateLast) < tableTreshold) {\n        return null;\n    }\n}\n\nconst date = new String(\n    now.getFullYear() + \"-\" + \n    (now.getMonth() + 1).toString().padStart(2, '0') + \"-\" + \n    now.getDate().toString().padStart(2, '0') + \"T\" + \n    now.getHours().toString().padStart(2, '0') + \":\" + \n    now.getMinutes().toString().padStart(2, '0') + \":\" +\n    now.getSeconds().toString().padStart(2, '0') + \".000Z\"\n);\n\nconst dateSplit = date.split(\"T\");\n\ntable.unshift({\n    \"date\": dateSplit[0] + \" \" + dateSplit[1].substring(0,dateSplit[1].length - 5),\n    \"temperature\": msg.payload[\"esp32/temperature\"],\n    \"air_humidity\": msg.payload[\"esp32/airHumidity\"],\n    \"soil_humidity\": msg.payload[\"esp32/soilHumidity\"],\n    \"light\": msg.payload[\"esp32/light\"],\n});\n\nwhile(table.length > 60) {\n    table.pop();\n}\n\nmsg.payload = table;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 120,
+        "wires": [
+            [
+                "c0e191c4d759e72b"
+            ]
+        ]
+    },
+    {
+        "id": "c55fe7fc33cb8087",
+        "type": "join",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Join Values",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "4",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "24acbcbdd2470709",
+                "4c2c49496e3da4a1"
+            ]
+        ]
+    },
+    {
+        "id": "b16f05305effe942",
+        "type": "link in",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Temperature In",
+        "links": [
+            "3a2e55ff52c9adee",
+            "9d60c1e3879c486e",
+            "ff706318bf55758a"
+        ],
+        "x": 65,
+        "y": 60,
+        "wires": [
+            [
+                "c55fe7fc33cb8087"
+            ]
+        ]
+    },
+    {
+        "id": "ebbd7f8ea2776f8d",
+        "type": "link in",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Air Humidity In",
+        "links": [
+            "a5c6fd623d153388",
+            "b553bd68a8c885ef"
+        ],
+        "x": 65,
+        "y": 100,
+        "wires": [
+            [
+                "c55fe7fc33cb8087"
+            ]
+        ]
+    },
+    {
+        "id": "cefe570c2001f888",
+        "type": "link in",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Soil Humidity In",
+        "links": [
+            "2466e043115c685e",
+            "ce657d933bdc146e"
+        ],
+        "x": 65,
+        "y": 140,
+        "wires": [
+            [
+                "c55fe7fc33cb8087"
+            ]
+        ]
+    },
+    {
+        "id": "33506e0014affb61",
+        "type": "link in",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Light In",
+        "links": [
+            "0c3b34231b70d775",
+            "475fac22c32d7e54"
+        ],
+        "x": 65,
+        "y": 180,
+        "wires": [
+            [
+                "c55fe7fc33cb8087"
+            ]
+        ]
+    },
+    {
+        "id": "9a529fe787d3d029",
+        "type": "ui_table",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "group": "f02e06bd562fac49",
+        "name": "Readings Table",
+        "order": 3,
+        "width": 10,
+        "height": 5,
+        "columns": [
+            {
+                "field": "date",
+                "title": "Date",
+                "width": "28px",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "temperature",
+                "title": "Temperature",
+                "width": "24px",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "air_humidity",
+                "title": "Air Humidity",
+                "width": "24px",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "soil_humidity",
+                "title": "Soil Humidity",
+                "width": "24px",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "light",
+                "title": "Light",
+                "width": "16px",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1040,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4c2c49496e3da4a1",
+        "type": "debug",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Input Values",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "0287f1e8fe734047",
+        "type": "ui_button",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Delete Data",
+        "group": "f02e06bd562fac49",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Delete Data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-trash-o",
+        "payload": "Are you sure?",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "95b01dbf532486a1"
+            ]
+        ]
+    },
+    {
+        "id": "1704f2f07561832c",
+        "type": "ui_button",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Export Data",
+        "group": "f02e06bd562fac49",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Export Data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-floppy-o",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "f3d227a98962a32f"
+            ]
+        ]
+    },
+    {
+        "id": "d89a1958867afef1",
+        "type": "function",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Delete Data",
+        "func": "msg.payload = [];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "c0e191c4d759e72b"
+            ]
+        ]
+    },
+    {
+        "id": "43e19575929c3ed0",
+        "type": "file",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Save Data",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1150,
+        "y": 240,
+        "wires": [
+            [
+                "6bf31598fea10731"
+            ]
+        ]
+    },
+    {
+        "id": "c0e191c4d759e72b",
+        "type": "change",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Save Data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "savedData",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 120,
+        "wires": [
+            [
+                "9a529fe787d3d029"
+            ]
+        ]
+    },
+    {
+        "id": "161fd875d9e67273",
+        "type": "csv",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "date,temperature,air_humidity,soil_humidity,light",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 970,
+        "y": 240,
+        "wires": [
+            [
+                "43e19575929c3ed0",
+                "72416cdb329ecc83"
+            ]
+        ]
+    },
+    {
+        "id": "f3d227a98962a32f",
+        "type": "function",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Save Data",
+        "func": "msg.payload = global.get(\"savedData\") || [];\n\nvar now = new Date();\n\nmsg.filename = \"/home/raspberry/node-red-logs/\" + \n    now.getFullYear() + \"-\" + \n    (now.getMonth() + 1).toString().padStart(2, '0') + \"-\" + \n    now.getDate().toString().padStart(2, '0') + \"T\" + \n    now.getHours().toString().padStart(2, '0') + \":\" + \n    now.getMinutes().toString().padStart(2, '0') + \":\" +\n    now.getSeconds().toString().padStart(2, '0') + \".csv\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 240,
+        "wires": [
+            [
+                "161fd875d9e67273"
+            ]
+        ]
+    },
+    {
+        "id": "f1dce3c9a55faa9d",
+        "type": "ui_toast",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Data Save Successful",
+        "x": 1600,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "6bf31598fea10731",
+        "type": "change",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Set Successful",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "SUCCESSFUL",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1360,
+        "y": 240,
+        "wires": [
+            [
+                "f1dce3c9a55faa9d"
+            ]
+        ]
+    },
+    {
+        "id": "72416cdb329ecc83",
+        "type": "debug",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "CSV",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "fcb675a7dc064339",
+        "type": "ui_slider",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Slider Seconds",
+        "label": "Seconds",
+        "tooltip": "",
+        "group": "452f5fd2ec2ec35e",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "0",
+        "max": "55",
+        "step": "5",
+        "className": "",
+        "x": 140,
+        "y": 300,
+        "wires": [
+            [
+                "d54744d1909d1079"
+            ]
+        ]
+    },
+    {
+        "id": "7441a65d149f8fd9",
+        "type": "ui_slider",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Slider Minutes",
+        "label": "Minutes",
+        "tooltip": "",
+        "group": "452f5fd2ec2ec35e",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "0",
+        "max": "60",
+        "step": "1",
+        "className": "",
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "df158fc2d8b7300e"
+            ]
+        ]
+    },
+    {
+        "id": "dbb79b41fc7efff2",
+        "type": "ui_slider",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "Slider Hours",
+        "label": "Hours",
+        "tooltip": "",
+        "group": "452f5fd2ec2ec35e",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "0",
+        "max": "24",
+        "step": "1",
+        "className": "",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "6e53dc1dce2f7c4f"
+            ]
+        ]
+    },
+    {
+        "id": "95b01dbf532486a1",
+        "type": "ui_toast",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "YES",
+        "cancel": "NO",
+        "raw": false,
+        "className": "",
+        "topic": "Delete Data?",
+        "name": "Delete Data",
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "d89a1958867afef1"
+            ]
+        ]
+    },
+    {
+        "id": "d54744d1909d1079",
+        "type": "change",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cycleSeconds",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df158fc2d8b7300e",
+        "type": "change",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cycleMinutes",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e53dc1dce2f7c4f",
+        "type": "change",
+        "z": "eadc909ede9189dc",
+        "g": "2ed993e5f4c24c73",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "cycleHours",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5113aff940f9677",
+        "type": "mqtt in",
+        "z": "b32d48a959cccd59",
+        "g": "8833773589050556",
+        "name": "Device Variables",
+        "topic": "esp32/deviceVariables",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "67efa018d60e49d5",
+                "bfd75aa87177317b"
+            ]
+        ]
+    },
+    {
+        "id": "2dec61b933607cda",
+        "type": "ui_text",
+        "z": "b32d48a959cccd59",
+        "g": "8833773589050556",
+        "group": "063432e3e57b4ec4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Temperature",
+        "label": "Temperature [°C]",
+        "format": "{{msg.temp}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 590,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "baa1184e996bac39",
+        "type": "ui_text",
+        "z": "b32d48a959cccd59",
+        "g": "8833773589050556",
+        "group": "063432e3e57b4ec4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Air Humidity",
+        "label": "Air Humidity [%]",
+        "format": "{{msg.airHumidity}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 590,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "67efa018d60e49d5",
+        "type": "function",
+        "z": "b32d48a959cccd59",
+        "g": "8833773589050556",
+        "name": "Display Data",
+        "func": "var split = msg.payload.split(\" \");\n\nvar temp = split[0] + \"/\" + split[1];\nvar airHumidity = split[2] + \"/\" + split[3];\nvar soilHumidity = split[4] + \"/\" + split[5];\n\nmsg.temp = temp;\nmsg.airHumidity = airHumidity;\nmsg.soilHumidity = soilHumidity;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "2dec61b933607cda",
+                "baa1184e996bac39",
+                "e2abefcda49db8ed"
+            ]
+        ]
+    },
+    {
+        "id": "e2abefcda49db8ed",
+        "type": "ui_text",
+        "z": "b32d48a959cccd59",
+        "g": "8833773589050556",
+        "group": "063432e3e57b4ec4",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Soil Humidity",
+        "label": "Soil Humidity [%]",
+        "format": "{{msg.soilHumidity}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bfd75aa87177317b",
+        "type": "debug",
+        "z": "b32d48a959cccd59",
+        "g": "8833773589050556",
+        "name": "Recieved",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4e78056c76bbffe0",
+        "type": "mqtt in",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Air Humidity",
+        "topic": "esp32/airHumidity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 630,
+        "y": 120,
+        "wires": [
+            [
+                "4ca8d4d8765e5ea2",
+                "6894fc91e23d7c64",
+                "b553bd68a8c885ef",
+                "9db6d474b285e6cb"
+            ]
+        ]
+    },
+    {
+        "id": "4ca8d4d8765e5ea2",
+        "type": "debug",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "esp32/humidity",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6894fc91e23d7c64",
+        "type": "ui_gauge",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Air Humidity",
+        "group": "ab93b90be0474b57",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 815,
+        "y": 180,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "81b2cb3a21cbb584",
+        "type": "mqtt in",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Soil Humidity",
+        "topic": "esp32/soilHumidity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 630,
+        "y": 300,
+        "wires": [
+            [
+                "1e86ed3136da3da7",
+                "8bb6c133f444020c",
+                "2466e043115c685e",
+                "725cc9d5937c86f9"
+            ]
+        ]
+    },
+    {
+        "id": "1e86ed3136da3da7",
+        "type": "debug",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "esp32/soilHumidity",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8bb6c133f444020c",
+        "type": "ui_gauge",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Soil Humidity",
+        "group": "0de2f39d9eb81e7b",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 815,
+        "y": 360,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "b553bd68a8c885ef",
+        "type": "link out",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Air Humidity Out",
+        "mode": "link",
+        "links": [
+            "ebbd7f8ea2776f8d"
+        ],
+        "x": 665,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "2466e043115c685e",
+        "type": "link out",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Soil Humidity Out",
+        "mode": "link",
+        "links": [
+            "cefe570c2001f888"
+        ],
+        "x": 665,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "6c99809bfd6568ac",
+        "type": "mqtt in",
+        "z": "bb806ea69cb970b6",
+        "g": "9b5cdb680a06e70c",
+        "name": "Light",
+        "topic": "esp32/light",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1130,
+        "y": 120,
+        "wires": [
+            [
+                "ae3b0b5a7b82ee34",
+                "8a1ba4f4ec37a9c9",
+                "0c3b34231b70d775",
+                "cea73a7c5b09f4cc"
+            ]
+        ]
+    },
+    {
+        "id": "ae3b0b5a7b82ee34",
+        "type": "debug",
+        "z": "bb806ea69cb970b6",
+        "g": "9b5cdb680a06e70c",
+        "name": "esp32/light",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "8a1ba4f4ec37a9c9",
+        "type": "ui_gauge",
+        "z": "bb806ea69cb970b6",
+        "g": "9b5cdb680a06e70c",
+        "name": "Light",
+        "group": "81f22fb07c11e017",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5000",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1295,
+        "y": 180,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "0c3b34231b70d775",
+        "type": "link out",
+        "z": "bb806ea69cb970b6",
+        "g": "9b5cdb680a06e70c",
+        "name": "Light Out",
+        "mode": "link",
+        "links": [
+            "33506e0014affb61"
+        ],
+        "x": 1145,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "54a419024fcc8eae",
+        "type": "mqtt in",
+        "z": "bb806ea69cb970b6",
+        "g": "226991cd6a8a44d8",
+        "name": "Temperature",
+        "topic": "esp32/temperature",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "4757ef60c9af7188",
+                "920962cd57769e78",
+                "5357e3a7d59d2640",
+                "ff706318bf55758a"
+            ]
+        ]
+    },
+    {
+        "id": "4757ef60c9af7188",
+        "type": "ui_chart",
+        "z": "bb806ea69cb970b6",
+        "g": "226991cd6a8a44d8",
+        "name": "Temperature",
+        "group": "b5ce803829b59acf",
+        "order": 2,
+        "width": 5,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 295,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "920962cd57769e78",
+        "type": "debug",
+        "z": "bb806ea69cb970b6",
+        "g": "226991cd6a8a44d8",
+        "name": "esp32/temperature",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5357e3a7d59d2640",
+        "type": "ui_gauge",
+        "z": "bb806ea69cb970b6",
+        "g": "226991cd6a8a44d8",
+        "name": "Temperature",
+        "group": "7de524731890078c",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 295,
+        "y": 180,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "ff706318bf55758a",
+        "type": "link out",
+        "z": "bb806ea69cb970b6",
+        "g": "226991cd6a8a44d8",
+        "name": "Temperature Out",
+        "mode": "link",
+        "links": [
+            "b16f05305effe942",
+            "76771a8f667c1e68",
+            "01f793f352e271df",
+            "f1dc2b7c6ec4e893",
+            "2e9b1ab9f29fcc38",
+            "9825e77ffc364c83"
+        ],
+        "x": 145,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "9db6d474b285e6cb",
+        "type": "ui_chart",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Air Humidity",
+        "group": "3b9744d8a4452d07",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 815,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "725cc9d5937c86f9",
+        "type": "ui_chart",
+        "z": "bb806ea69cb970b6",
+        "g": "ac7c595f2a7cf9e5",
+        "name": "Soil Humidity",
+        "group": "291353e37a04be5a",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 815,
+        "y": 300,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "cea73a7c5b09f4cc",
+        "type": "ui_chart",
+        "z": "bb806ea69cb970b6",
+        "g": "9b5cdb680a06e70c",
+        "name": "Light",
+        "group": "b34d9eb3a2225d2f",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "5000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1295,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "f58b9452594c96db",
+        "type": "template",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "Template Online",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "plain",
+        "template": "<b class=\"status-online\">ONLINE</b>",
+        "output": "str",
+        "x": 340,
+        "y": 340,
+        "wires": [
+            [
+                "8fe644abd56d07ce",
+                "1a8b2fe0712a51ab"
+            ]
+        ]
+    },
+    {
+        "id": "f3d30a8fbd3b1f1e",
+        "type": "template",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "Template Offline",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<b class=\"status-offline\">OFFLINE</b>",
+        "output": "str",
+        "x": 340,
+        "y": 380,
+        "wires": [
+            [
+                "8fe644abd56d07ce",
+                "1a8b2fe0712a51ab"
+            ]
+        ]
+    },
+    {
+        "id": "8fe644abd56d07ce",
+        "type": "ui_text",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "group": "063432e3e57b4ec4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 600,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8f4547ffc1309a63",
+        "type": "link in",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "Online In",
+        "links": [
+            "0d17d13a48fb6634",
+            "323d44b8c5e83de5",
+            "5fecaa79e9144e59",
+            "3884c34121dc47ba",
+            "dd654227ce9d9426"
+        ],
+        "x": 185,
+        "y": 340,
+        "wires": [
+            [
+                "f58b9452594c96db"
+            ]
+        ]
+    },
+    {
+        "id": "aefa250b83ba4349",
+        "type": "link in",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "Offline In",
+        "links": [
+            "0ba05c52304340a9",
+            "31fa92ef3288b48b",
+            "aa27f3b632f00e23",
+            "3c51dbad3d0c275d",
+            "bc93d9bbe972ea29",
+            "35df6c276b9e0378"
+        ],
+        "x": 185,
+        "y": 380,
+        "wires": [
+            [
+                "f3d30a8fbd3b1f1e"
+            ]
+        ]
+    },
+    {
+        "id": "4b5d5dcb49d60ca8",
+        "type": "function",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Display Value",
+        "func": "if (msg.payload) {\n    msg.payload = \"ONLINE\";\n    if (global.get(\"status\") == \"ONLINE\") {\n        return;\n    } else {\n        global.set(\"status\", \"ONLINE\");\n    }\n    \n    return [msg, null];\n} else if (!msg.payload) {\n    msg.payload = \"OFFLINE\";\n    if (global.get(\"status\") == \"OFFLINE\") {\n        return;\n    } else {\n        global.set(\"status\", \"OFFLINE\");\n    }\n\n    return [null, msg];\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 120,
+        "wires": [
+            [
+                "dd654227ce9d9426",
+                "a5215ec990b65882"
+            ],
+            [
+                "bc93d9bbe972ea29"
+            ]
+        ]
+    },
+    {
+        "id": "79d59ac095702deb",
+        "type": "trigger",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Challenge Device",
+        "op1": "false",
+        "op2": "0",
+        "op1type": "bool",
+        "op2type": "str",
+        "duration": "-60",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "4734ba2c8413219c",
+                "1d637c3a4359c8bf"
+            ]
+        ]
+    },
+    {
+        "id": "ef823c317275d227",
+        "type": "mqtt in",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Response",
+        "topic": "esp32/response",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 380,
+        "y": 120,
+        "wires": [
+            [
+                "597a311c871491d9",
+                "dfd1ac76a10305e1"
+            ]
+        ]
+    },
+    {
+        "id": "4734ba2c8413219c",
+        "type": "mqtt out",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Challenge",
+        "topic": "esp32/challenge",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 380,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "1d637c3a4359c8bf",
+        "type": "delay",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "c0bced23067386fd"
+            ]
+        ]
+    },
+    {
+        "id": "d4db1b38eca21c82",
+        "type": "ui_ui_control",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Wait Connection",
+        "events": "connect",
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "4734ba2c8413219c",
+                "79d59ac095702deb"
+            ]
+        ]
+    },
+    {
+        "id": "597a311c871491d9",
+        "type": "change",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Reset Delay",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "1d637c3a4359c8bf"
+            ]
+        ]
+    },
+    {
+        "id": "a5215ec990b65882",
+        "type": "mqtt out",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Read Variables",
+        "topic": "esp32/readVariables",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 940,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "dd654227ce9d9426",
+        "type": "link out",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Online Out",
+        "mode": "link",
+        "links": [
+            "8f4547ffc1309a63"
+        ],
+        "x": 955,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "bc93d9bbe972ea29",
+        "type": "link out",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Offline Out",
+        "mode": "link",
+        "links": [
+            "aefa250b83ba4349",
+            "0b1cfffe0d8563e7"
+        ],
+        "x": 955,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4453efd3c32bd947",
+        "type": "mqtt in",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "Force Response",
+        "topic": "esp32/forceResponse",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "26959879e530f1f6",
+                "66cc64787ac87cbb"
+            ]
+        ]
+    },
+    {
+        "id": "0cc7b76c97a318f5",
+        "type": "link out",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "Sync Check Out",
+        "mode": "link",
+        "links": [
+            "a0e1d00292b86779"
+        ],
+        "x": 435,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "c0bced23067386fd",
+        "type": "change",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 180,
+        "wires": [
+            [
+                "4b5d5dcb49d60ca8"
+            ]
+        ]
+    },
+    {
+        "id": "dfd1ac76a10305e1",
+        "type": "change",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 120,
+        "wires": [
+            [
+                "4b5d5dcb49d60ca8"
+            ]
+        ]
+    },
+    {
+        "id": "69b98104ac95376d",
+        "type": "link in",
+        "z": "ea5d01686805a4c0",
+        "g": "da966f598e9a8a77",
+        "name": "Sync Offline",
+        "links": [
+            "06522c627445bae2",
+            "b072b6c1c4f05c56"
+        ],
+        "x": 645,
+        "y": 60,
+        "wires": [
+            [
+                "4b5d5dcb49d60ca8"
+            ]
+        ]
+    },
+    {
+        "id": "b072b6c1c4f05c56",
+        "type": "link out",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "link out 15",
+        "mode": "link",
+        "links": [
+            "69b98104ac95376d"
+        ],
+        "x": 435,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "1a8b2fe0712a51ab",
+        "type": "ui_toast",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": true,
+        "className": "",
+        "topic": "Device Status",
+        "name": "Show Message",
+        "x": 600,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26959879e530f1f6",
+        "type": "change",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "Set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 480,
+        "wires": [
+            [
+                "b072b6c1c4f05c56"
+            ]
+        ]
+    },
+    {
+        "id": "66cc64787ac87cbb",
+        "type": "switch",
+        "z": "ea5d01686805a4c0",
+        "g": "5cab40e3b674511a",
+        "name": "",
+        "property": "syncMode",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "auto",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "manual",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "0cc7b76c97a318f5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e27029352354fba6",
+        "type": "ui_template",
+        "z": "faf343472f718423",
+        "g": "b8e0ddd6a610a57e",
+        "group": "b5ce803829b59acf",
+        "name": "Dashboard Custom Style",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    ui-card-panel {\n        border-radius: 10px;\n        box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px\n    }\n\n    md-dialog {\n        padding: 5px 10px;\n    }\n\n    .tabulator-col-content {\n        background-color: rgba(230, 130, 30 ,1);\n    }\n\n    .status-offline {\n        color: red;\n    }\n\n    .status-online {\n        color: green;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 150,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90c1691952e969d2",
+        "type": "ui_button",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Sync Controller",
+        "group": "063432e3e57b4ec4",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "SYNC TO CONTROLLER",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Are you sure?",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "dec03da5c1979f0f",
+                "e78654fa32ddf00d"
+            ]
+        ]
+    },
+    {
+        "id": "b0710bdda8a33435",
+        "type": "function",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Sync",
+        "func": "if(!global.get(\"tempOptimal\"))\n    global.set(\"tempOptimal\", 22);\n\nif(!global.get(\"tempRadius\"))\n    global.set(\"tempRadius\", 1);  \n\nif (!global.get(\"airHumOptimal\"))\n    global.set(\"airHumOptimal\", 50);\n\nif (!global.get(\"airHumRadius\"))\n    global.set(\"airHumRadius\", 5);\n\nif (!global.get(\"soilHumOptimal\"))\n    global.set(\"soilHumOptimal\", 50);\n\nif (!global.get(\"soilHumRadius\"))\n    global.set(\"soilHumRadius\", 5);\n\nmsg.payload = \n    global.get(\"tempOptimal\") + \" \" + \n    global.get(\"tempRadius\") + \" \" + \n    global.get(\"airHumOptimal\") + \" \" + \n    global.get(\"airHumRadius\") + \" \" + \n    global.get(\"soilHumOptimal\") + \" \" + \n    global.get(\"soilHumRadius\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "82f18506805f4464"
+            ]
+        ]
+    },
+    {
+        "id": "38ac8359cb48143e",
+        "type": "ui_toast",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "YES",
+        "cancel": "NO",
+        "raw": false,
+        "className": "",
+        "topic": "Sync Device To Controller?",
+        "name": "Sync Controller",
+        "x": 840,
+        "y": 60,
+        "wires": [
+            [
+                "12acea576ac0e686"
+            ]
+        ]
+    },
+    {
+        "id": "12acea576ac0e686",
+        "type": "switch",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Check Option",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "YES",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1060,
+        "y": 60,
+        "wires": [
+            [
+                "9677d0c4146d6f3b"
+            ]
+        ]
+    },
+    {
+        "id": "82f18506805f4464",
+        "type": "mqtt out",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Sync Controller",
+        "topic": "esp32/syncToController",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 540,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1e0115a2d4a49e49",
+        "type": "delay",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 820,
+        "y": 120,
+        "wires": [
+            [
+                "b5a8f8cf6d792d1c"
+            ]
+        ]
+    },
+    {
+        "id": "b5a8f8cf6d792d1c",
+        "type": "change",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 120,
+        "wires": [
+            [
+                "06522c627445bae2"
+            ]
+        ]
+    },
+    {
+        "id": "67d065b4292674d4",
+        "type": "change",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "b0710bdda8a33435"
+            ]
+        ]
+    },
+    {
+        "id": "06522c627445bae2",
+        "type": "link out",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Sync False Out",
+        "mode": "link",
+        "links": [
+            "69b98104ac95376d"
+        ],
+        "x": 1115,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8529d6a4e9397820",
+        "type": "link in",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Sync  Button Start Delay In",
+        "links": [
+            "dec03da5c1979f0f"
+        ],
+        "x": 685,
+        "y": 160,
+        "wires": [
+            [
+                "1e0115a2d4a49e49"
+            ]
+        ]
+    },
+    {
+        "id": "dec03da5c1979f0f",
+        "type": "link out",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Button Sync Delay Start Out",
+        "mode": "link",
+        "links": [
+            "8529d6a4e9397820"
+        ],
+        "x": 205,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e0c544c189527c17",
+        "type": "ui_switch",
+        "z": "8905c6becc0bc4e1",
+        "g": "aed51b703ec02289",
+        "name": "Sync Mode",
+        "label": "Automatic Sync",
+        "tooltip": "Sync device manually or automatically on new connection",
+        "group": "063432e3e57b4ec4",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "175f5ce5045855dd"
+            ]
+        ]
+    },
+    {
+        "id": "175f5ce5045855dd",
+        "type": "function",
+        "z": "8905c6becc0bc4e1",
+        "g": "aed51b703ec02289",
+        "name": "Set Sync Mode",
+        "func": "if(msg.payload) {\n    global.set(\"syncMode\", \"auto\");\n} else {\n    global.set(\"syncMode\", \"manual\");\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b824088a8a4745b3",
+        "type": "mqtt in",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Online",
+        "topic": "esp32/online",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 490,
+        "y": 60,
+        "wires": [
+            [
+                "05869f5c649d5483",
+                "90618bed72348307"
+            ]
+        ]
+    },
+    {
+        "id": "e78654fa32ddf00d",
+        "type": "mqtt out",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Status",
+        "topic": "esp32/status",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 330,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "05869f5c649d5483",
+        "type": "change",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Are you sure?",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 60,
+        "wires": [
+            [
+                "38ac8359cb48143e"
+            ]
+        ]
+    },
+    {
+        "id": "90618bed72348307",
+        "type": "change",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 120,
+        "wires": [
+            [
+                "1e0115a2d4a49e49"
+            ]
+        ]
+    },
+    {
+        "id": "9677d0c4146d6f3b",
+        "type": "link out",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Check Option Out",
+        "mode": "link",
+        "links": [
+            "29f4dd011185a6c5"
+        ],
+        "x": 1215,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "29f4dd011185a6c5",
+        "type": "link in",
+        "z": "8905c6becc0bc4e1",
+        "g": "c1c699c80b181abd",
+        "name": "Check Option In",
+        "links": [
+            "9677d0c4146d6f3b"
+        ],
+        "x": 65,
+        "y": 220,
+        "wires": [
+            [
+                "67d065b4292674d4"
+            ]
+        ]
+    }
+]
